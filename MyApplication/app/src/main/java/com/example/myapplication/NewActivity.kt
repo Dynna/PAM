@@ -19,7 +19,6 @@ class NewActivity : AppCompatActivity() {
 
         backButton = findViewById(R.id.button2)
         backButton.setOnClickListener {
-
             val lastLogin = "Last login: $message"
             val resultIntent = Intent()
             resultIntent.putExtra("LastLogin", lastLogin)
