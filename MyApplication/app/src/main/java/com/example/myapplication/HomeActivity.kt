@@ -13,20 +13,6 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val recyclerView = findViewById(R.id.recyclerView) as RecyclerView
-
-        recyclerView.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
-
-        val users = ArrayList<User>()
-
-        users.add(User("Second Name", "address 2"))
-        users.add(User("Third Name", "address 3"))
-        users.add(User("Fourth Name", "address 4"))
-        users.add(User("Fifth Name", "address 5"))
-
-        val adapter = CustomAdapter(users)
-
-        recyclerView.adapter = adapter
     }
 
 }

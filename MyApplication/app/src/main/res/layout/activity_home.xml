@@ -47,16 +47,6 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-<!--    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
-        android:id="@+id/bottom_navigation_view"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/black"
-        android:layout_marginTop="680dp"
-
-
-        />-->
-
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -79,13 +69,6 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/ic_search_foreground" />
-<!--
-            <ImageView
-                android:id="@+id/share_icon"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_share_foreground" />-->
-
 
             <ImageView
                 android:id="@+id/profile_icon"
@@ -96,12 +79,6 @@
         </androidx.appcompat.widget.ActionMenuView>
 
     </androidx.appcompat.widget.Toolbar>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="300dp"
-        android:layout_height="600dp"
-        android:scrollbars="vertical"/>
 
 
 </RelativeLayout>
