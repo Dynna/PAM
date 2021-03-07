@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_home"
+        android:title="" />
+    <item
+        android:icon="@drawable/ic_search_foreground"
+        android:title="" />
+    <item
+        android:icon="@drawable/ic_share_foreground"
+        android:title="" />
+    <item
+        android:icon="@drawable/ic_notification_foreground"
+        android:title="" />
+    <item
+        android:icon="@drawable/ic_profile_foreground"
+        android:title="" />
+</menu>
