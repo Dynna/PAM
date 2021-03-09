@@ -9,4 +9,67 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="post1">Choose only one master—nature. .</string>
+    <string name="post2">Nature does not hurry, yet everything is accomplished.</string>
+    <string name="post3">If you truly love nature, you will find beauty everywhere.</string>
+    <string name="post4">Leave the road, take the trails.</string>
+    <string name="post5">I have so much to be grateful for.</string>
+    <string name="post6">I go to nature to be soothed and healed, and to have my senses put in order.</string>
+    <string name="post7">There’s a whole world out there, right outside your window. You’d be a fool to miss it.</string>
+    <string name="post8">Study nature, love nature, stay close to nature. It will never fail you.</string>
+    <string name="post9">Colors are the smiles of nature.</string>
+    <string name="post10">Land really is the best art.</string>
+    <string name="post11">Everything in nature invites us constantly to be what we are.</string>
+    <string name="post12">The best thing one can do when it’s raining is to let it rain.</string>
+    <string name="post13">Many eyes go through the meadow, but few see the flowers in it.</string>
+    <string name="post14">Spring is nature’s way of saying, ‘Let’s party!’.</string>
+    <string name="post15">The earth has music for those who listen.</string>
+    <string name="post16">There are always flowers for those who want to see them.</string>
+    <string name="post17">Adopt the pace of nature. Her secret is patience.</string>
+    <string name="post18">A weed is no more than a flower in disguise.</string>
+    <string name="post19">The earth is what we all have in common.</string>
+    <string name="post20">Although we say mountains belong to the country, actually, they belong to those that love them.</string>
+    <string name="post21">The least movement is of importance to all nature. The entire ocean is affected by a pebble.</string>
+    <string name="post22">The goal of life is living in agreement with nature.</string>
+    <string name="post23">Let the rain kiss you. Let the rain beat upon your head with silver liquid drops. Let the rain sing you a lullaby.</string>
+    <string name="post24">Nature is loved by what is best in us.</string>
+    <string name="post25">Solitary trees, if they grow at all, grow strong.</string>
+    <string name="post26">A morning-glory at my window satisfies me more than the metaphysics of books.</string>
+    <string name="post27">The world is not to be put in order. The world is order. It is for us to put ourselves in unison with this order.</string>
+    <string name="post28">One touch of nature makes the whole world kin.</string>
+    <string name="post29">By discovering nature, you discover yourself.</string>
+    <string name="post30">Time spent amongst trees is never wasted time.</string>
+
+    <string name="author1">andy_22</string>
+    <string name="author2">nicknk</string>
+    <string name="author3">ramme_23</string>
+    <string name="author4">mixa_1</string>
+    <string name="author5">awee.me</string>
+    <string name="author6">alina_boo</string>
+    <string name="author7">wictor.t</string>
+    <string name="author8">andreaa_</string>
+    <string name="author9">morandi_man</string>
+    <string name="author10">i_am_the_sky</string>
+    <string name="author11">vanilla</string>
+    <string name="author12">lovely</string>
+    <string name="author13">lemonade_sweet</string>
+    <string name="author14">alex_o</string>
+    <string name="author15">dianne</string>
+    <string name="author16">elena_m</string>
+    <string name="author17">georgeta_c</string>
+    <string name="author18">catea_gh</string>
+    <string name="author19">marianne_p</string>
+    <string name="author20">olly_sav</string>
+    <string name="author21">danny_ph</string>
+    <string name="author22">rebecca_s</string>
+    <string name="author23">irina_sh</string>
+    <string name="author24">christian_1</string>
+    <string name="author25">stefan_p</string>
+    <string name="author26">nicu_g</string>
+    <string name="author27">yana_pg</string>
+    <string name="author28">victoria_x</string>
+    <string name="author29">alexa_o</string>
+    <string name="author30">tatyana_ce</string>
 </resources>
