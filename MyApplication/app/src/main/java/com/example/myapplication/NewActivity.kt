@@ -18,7 +18,7 @@ class NewActivity : AppCompatActivity() {
         title = "MyApp"
         val message = intent.getStringExtra("message_key")
         val messageTextView: TextView = findViewById(R.id.textView)
-        messageTextView.text = "Dear $message, welcome to the Authentic Social Network! The purpose of this application is to serve as a way to connect individuals with other people in order to share information, ideas, messages, creativity and interests. Authentic Social Network has no likes, followers and influencers, it's a platform for network & inspiration where mental health is a priority!"
+        messageTextView.text = "Dear, $message " + resources.getString(R.string.agreement)
 
         backButton = findViewById(R.id.button2)
 

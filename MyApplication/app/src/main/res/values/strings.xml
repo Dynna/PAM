@@ -10,7 +10,6 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
-
     <string name="post1">Choose only one master—nature. .</string>
     <string name="post2">Nature does not hurry, yet everything is accomplished.</string>
     <string name="post3">If you truly love nature, you will find beauty everywhere.</string>
@@ -72,4 +71,6 @@
     <string name="author28">victoria_x</string>
     <string name="author29">alexa_o</string>
     <string name="author30">tatyana_ce</string>
+
+    <string name="agreement">welcome to the Authentic Social Network! The purpose of this application is to serve as a way to connect individuals with other people in order to share information, ideas, messages, creativity and interests. Authentic Social Network has no likes, followers and influencers, its a platform for network &amp; inspiration where mental health is a priority!</string>
 </resources>
