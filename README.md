@@ -1,5 +1,13 @@
 # PAM - Programming of Mobile Applications
 
+## Laboratory Work Nr. 2: what has been done
+1. Picked a theme for the app - an authentic social network which will connect people by sharing creativity, interests and will have no metrics [like likes/followers]
+2. Implemented basic UI and layout for the app - 3 functional screens [login, agreement, feed activity]
+3. Populated feed activity with data [posts/ 30 elements] by using RecyclerView
+
+![alt text](images/lab_2_gif.gif)
+
+
 ## Laboratory Work Nr. 1: what has been done
 
 1. Mobile application initialization on selected platform: Native Android mobile application installed on Android Studio & written using Kotlin language
