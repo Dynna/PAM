@@ -25,3 +25,4 @@ class HomeActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
     }
 }
+
