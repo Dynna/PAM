@@ -1,7 +1,11 @@
 package com.example.myapplication
 
+import android.content.Intent
+import android.graphics.drawable.Icon
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.adapter.ItemAdapter
@@ -23,6 +27,12 @@ class HomeActivity : AppCompatActivity() {
         recyclerView.adapter = ItemAdapter(this, myDataset)
 
         recyclerView.setHasFixedSize(true)
+
+        val h_icon: ImageView = findViewById(R.id.home_icon)
+        h_icon.setOnClickListener {
+            val intent = Intent(this, PostActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 
