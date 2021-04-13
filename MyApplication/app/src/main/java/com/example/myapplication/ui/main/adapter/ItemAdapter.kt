@@ -1,16 +1,11 @@
-package com.example.myapplication.adapter
+package com.example.myapplication.ui.main.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.R
 import com.example.myapplication.databinding.ListItemBinding
-import com.example.myapplication.model.Post
-import kotlinx.android.synthetic.main.list_item.view.*
+import com.example.myapplication.data.model.Post
 
 class ItemAdapter(
     private val context: Context,

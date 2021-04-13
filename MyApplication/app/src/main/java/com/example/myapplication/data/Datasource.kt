@@ -1,7 +1,7 @@
 package com.example.myapplication.data
 
 import com.example.myapplication.R
-import com.example.myapplication.model.Post
+import com.example.myapplication.data.model.Post
 
 class Datasource() {
 

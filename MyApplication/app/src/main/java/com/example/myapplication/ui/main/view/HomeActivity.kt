@@ -1,17 +1,16 @@
-package com.example.myapplication
+package com.example.myapplication.ui.main.view
 
+import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.drawable.Icon
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.adapter.ItemAdapter
+import com.example.myapplication.R
+import com.example.myapplication.ui.main.adapter.ItemAdapter
 import com.example.myapplication.data.Datasource
 import com.example.myapplication.databinding.ActivityHomeBinding
-import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
@@ -28,10 +27,12 @@ class HomeActivity : AppCompatActivity() {
 
         recyclerView.setHasFixedSize(true)
 
-        val h_icon: ImageView = findViewById(R.id.home_icon)
-        h_icon.setOnClickListener {
-            val intent = Intent(this, PostActivity::class.java)
-            startActivity(intent)
+        val nextB = findViewById<Button>(R.id.button4)
+
+        nextB.setOnClickListener {
+            val intent = Intent(this@HomeActivity, UserActivity::class.java)
+
+            startActivityForResult(intent, 1)
         }
     }
 }
