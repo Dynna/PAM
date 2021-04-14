@@ -1,5 +1,12 @@
 # PAM - Programming of Mobile Applications
 
+## Laboratory Work Nr. 3: what has been done
+1. Picked an API to retrieve an users list as contacts
+2. Made use of Retrofit service and kotlin coroutines
+3. Added 2 more screens with implemented design
+
+![](images/lab_3_screens.jpg)
+
 ## Laboratory Work Nr. 2: what has been done
 1. Picked a theme for the app - an authentic social network which will connect people by sharing creativity, interests and will have no metrics [like likes/followers]
 2. Implemented basic UI and layout for the app - 3 functional screens [login, agreement, feed activity]
