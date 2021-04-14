@@ -34,6 +34,14 @@ class HomeActivity : AppCompatActivity() {
 
             startActivityForResult(intent, 1)
         }
+
+        val profileB = findViewById<ImageView>(R.id.profile_icon)
+
+        profileB.setOnClickListener {
+            val my_intent = Intent(this@HomeActivity, ProfileActivity::class.java)
+
+            startActivityForResult(my_intent, 1)
+        }
     }
 }
 
