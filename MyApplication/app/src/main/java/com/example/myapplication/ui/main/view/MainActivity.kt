@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         messageEditText = findViewById(R.id.editTextTextPersonName)
         changeActivityButton = findViewById(R.id.button)
         changeActivityButton.setOnClickListener {
-            val intent = Intent(this@MainActivity, NewActivity::class.java)
+            val intent = Intent(this@MainActivity, WelcomeActivity::class.java)
             val message = messageEditText.text.toString()
             intent.putExtra("message_key", message)
 
