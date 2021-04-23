@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.R
 
 
-class NewActivity : AppCompatActivity() {
+class WelcomeActivity : AppCompatActivity() {
     lateinit var backButton: Button
     lateinit var nextButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +34,7 @@ class NewActivity : AppCompatActivity() {
         nextButton = findViewById(R.id.button3)
 
         nextButton.setOnClickListener {
-            val intent = Intent(this@NewActivity, HomeActivity::class.java)
+            val intent = Intent(this@WelcomeActivity, HomeActivity::class.java)
 
             startActivityForResult(intent, 1)
         }
