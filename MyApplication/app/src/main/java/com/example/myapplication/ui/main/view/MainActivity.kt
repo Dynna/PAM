@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ui.main.view
 
 import android.app.Activity
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import com.example.myapplication.R
 
 class MainActivity : AppCompatActivity() {
     lateinit var changeActivityButton: Button

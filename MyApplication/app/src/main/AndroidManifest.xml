@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,9 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".HomeActivity"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.main.view.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.MyApplication.NoActionBar"></activity>
+        <activity android:name=".ui.main.view.HomeActivity" />
+        <activity
+            android:name=".ui.main.view.MainActivity"
             android:label="@string/title_activity_new"
             android:theme="@style/Theme.MyApplication.NoActionBar">
             <intent-filter>
@@ -20,7 +27,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewActivity">
+        <activity android:name=".ui.main.view.NewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.main.view.UserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
