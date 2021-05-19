@@ -1,6 +1,8 @@
 package com.example.myapplication.data.api
 
-class ApiHelper(private val apiService: ApiService) {
+import com.example.myapplication.data.model.User
 
-    suspend fun getUsers() = apiService.getUsers()
+interface ApiHelper {
+
+    suspend fun getUsers(): List<User>
 }

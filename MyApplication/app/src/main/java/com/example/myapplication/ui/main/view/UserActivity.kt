@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapplication.R
 import com.example.myapplication.data.api.ApiHelper
+import com.example.myapplication.data.api.ApiHelperImpl
 import com.example.myapplication.data.api.RetrofitBuilder
 import com.example.myapplication.data.model.User
 import com.example.myapplication.ui.base.ViewModelFactory
@@ -34,7 +35,7 @@ class UserActivity : AppCompatActivity() {
     private fun setupViewModel() {
         viewModel = ViewModelProviders.of(
             this,
-            ViewModelFactory(ApiHelper(RetrofitBuilder.apiService))
+            ViewModelFactory(ApiHelperImpl(RetrofitBuilder.apiService))
         ).get(MainViewModel::class.java)
     }
 
